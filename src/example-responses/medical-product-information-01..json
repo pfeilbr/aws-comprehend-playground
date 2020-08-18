@@ -1,0 +1,660 @@
+{
+  "Entities": [
+    {
+      "Id": 0,
+      "BeginOffset": 51,
+      "EndOffset": 59,
+      "Score": 0.9921516180038452,
+      "Text": "apixaban",
+      "Category": "MEDICATION",
+      "Type": "GENERIC_NAME",
+      "Traits": []
+    },
+    {
+      "Id": 1,
+      "BeginOffset": 104,
+      "EndOffset": 111,
+      "Score": 0.9684582352638245,
+      "Text": "ELIQUIS",
+      "Category": "MEDICATION",
+      "Type": "BRAND_NAME",
+      "Traits": []
+    },
+    {
+      "Id": 7,
+      "BeginOffset": 469,
+      "EndOffset": 484,
+      "Score": 0.39885416626930237,
+      "Text": "anticoagulation",
+      "Category": "TEST_TREATMENT_PROCEDURE",
+      "Type": "TREATMENT_NAME",
+      "Traits": []
+    },
+    {
+      "Id": 2,
+      "BeginOffset": 495,
+      "EndOffset": 503,
+      "Score": 0.9992784857749939,
+      "Text": "apixaban",
+      "Category": "MEDICATION",
+      "Type": "GENERIC_NAME",
+      "Traits": []
+    },
+    {
+      "Id": 8,
+      "BeginOffset": 512,
+      "EndOffset": 525,
+      "Score": 0.30616581439971924,
+      "Text": "clotting test",
+      "Category": "TEST_TREATMENT_PROCEDURE",
+      "Type": "TEST_NAME",
+      "Traits": []
+    },
+    {
+      "Id": 9,
+      "BeginOffset": 527,
+      "EndOffset": 529,
+      "Score": 0.7086151838302612,
+      "Text": "PT",
+      "Category": "TEST_TREATMENT_PROCEDURE",
+      "Type": "TEST_NAME",
+      "Traits": []
+    },
+    {
+      "Id": 10,
+      "BeginOffset": 531,
+      "EndOffset": 534,
+      "Score": 0.9902163743972778,
+      "Text": "INR",
+      "Category": "TEST_TREATMENT_PROCEDURE",
+      "Type": "TEST_NAME",
+      "Traits": []
+    },
+    {
+      "Id": 11,
+      "BeginOffset": 539,
+      "EndOffset": 543,
+      "Score": 0.8859080076217651,
+      "Text": "aPTT",
+      "Category": "TEST_TREATMENT_PROCEDURE",
+      "Type": "TEST_NAME",
+      "Traits": []
+    },
+    {
+      "Id": 12,
+      "BeginOffset": 548,
+      "EndOffset": 562,
+      "Score": 0.5942521691322327,
+      "Text": "anti-factor Xa",
+      "Category": "TEST_TREATMENT_PROCEDURE",
+      "Type": "TEST_NAME",
+      "Traits": []
+    },
+    {
+      "Id": 13,
+      "BeginOffset": 564,
+      "EndOffset": 567,
+      "Score": 0.40911877155303955,
+      "Text": "FXa",
+      "Category": "TEST_TREATMENT_PROCEDURE",
+      "Type": "TEST_NAME",
+      "Traits": []
+    },
+    {
+      "Id": 4,
+      "BeginOffset": 631,
+      "EndOffset": 639,
+      "Score": 0.6195911169052124,
+      "Text": "charcoal",
+      "Category": "MEDICATION",
+      "Type": "GENERIC_NAME",
+      "Traits": [],
+      "Attributes": [
+        {
+          "Type": "ROUTE_OR_MODE",
+          "Score": 0.36380428075790405,
+          "RelationshipScore": 0.9999977350234985,
+          "RelationshipType": "ROUTE_OR_MODE",
+          "Id": 3,
+          "BeginOffset": 626,
+          "EndOffset": 630,
+          "Text": "oral",
+          "Category": "MEDICATION",
+          "Traits": []
+        }
+      ]
+    },
+    {
+      "Id": 5,
+      "BeginOffset": 662,
+      "EndOffset": 670,
+      "Score": 0.9995119571685791,
+      "Text": "apixaban",
+      "Category": "MEDICATION",
+      "Type": "GENERIC_NAME",
+      "Traits": []
+    },
+    {
+      "Id": 6,
+      "BeginOffset": 689,
+      "EndOffset": 697,
+      "Score": 0.8996834754943848,
+      "Text": "apixaban",
+      "Category": "MEDICATION",
+      "Type": "GENERIC_NAME",
+      "Traits": []
+    },
+    {
+      "Id": 27,
+      "BeginOffset": 742,
+      "EndOffset": 754,
+      "Score": 0.7457773089408875,
+      "Text": "Hemodialysis",
+      "Category": "TEST_TREATMENT_PROCEDURE",
+      "Type": "TREATMENT_NAME",
+      "Traits": []
+    },
+    {
+      "Id": 14,
+      "BeginOffset": 803,
+      "EndOffset": 811,
+      "Score": 0.9950531125068665,
+      "Text": "apixaban",
+      "Category": "MEDICATION",
+      "Type": "GENERIC_NAME",
+      "Traits": []
+    },
+    {
+      "Id": 15,
+      "BeginOffset": 857,
+      "EndOffset": 874,
+      "Score": 0.997369647026062,
+      "Text": "Protamine sulfate",
+      "Category": "MEDICATION",
+      "Type": "GENERIC_NAME",
+      "Traits": []
+    },
+    {
+      "Id": 16,
+      "BeginOffset": 879,
+      "EndOffset": 888,
+      "Score": 0.9935775995254517,
+      "Text": "vitamin K",
+      "Category": "MEDICATION",
+      "Type": "GENERIC_NAME",
+      "Traits": []
+    },
+    {
+      "Id": 17,
+      "BeginOffset": 946,
+      "EndOffset": 954,
+      "Score": 0.9981651902198792,
+      "Text": "apixaban",
+      "Category": "MEDICATION",
+      "Type": "GENERIC_NAME",
+      "Traits": []
+    },
+    {
+      "Id": 18,
+      "BeginOffset": 984,
+      "EndOffset": 1007,
+      "Score": 0.582421600818634,
+      "Text": "antifibrinolytic agents",
+      "Category": "MEDICATION",
+      "Type": "GENERIC_NAME",
+      "Traits": []
+    },
+    {
+      "Id": 19,
+      "BeginOffset": 1009,
+      "EndOffset": 1024,
+      "Score": 0.9943060278892517,
+      "Text": "tranexamic acid",
+      "Category": "MEDICATION",
+      "Type": "GENERIC_NAME",
+      "Traits": []
+    },
+    {
+      "Id": 20,
+      "BeginOffset": 1026,
+      "EndOffset": 1043,
+      "Score": 0.987498939037323,
+      "Text": "aminocaproic acid",
+      "Category": "MEDICATION",
+      "Type": "GENERIC_NAME",
+      "Traits": []
+    },
+    {
+      "Id": 21,
+      "BeginOffset": 1070,
+      "EndOffset": 1078,
+      "Score": 0.9979414343833923,
+      "Text": "apixaban",
+      "Category": "MEDICATION",
+      "Type": "GENERIC_NAME",
+      "Traits": []
+    },
+    {
+      "Id": 28,
+      "BeginOffset": 1108,
+      "EndOffset": 1128,
+      "Score": 0.3304338753223419,
+      "Text": "systemic hemostatics",
+      "Category": "TEST_TREATMENT_PROCEDURE",
+      "Type": "TREATMENT_NAME",
+      "Traits": []
+    },
+    {
+      "Id": 22,
+      "BeginOffset": 1130,
+      "EndOffset": 1142,
+      "Score": 0.6551056504249573,
+      "Text": "desmopressin",
+      "Category": "MEDICATION",
+      "Type": "GENERIC_NAME",
+      "Traits": []
+    },
+    {
+      "Id": 23,
+      "BeginOffset": 1169,
+      "EndOffset": 1176,
+      "Score": 0.9557244181632996,
+      "Text": "ELIQUIS",
+      "Category": "MEDICATION",
+      "Type": "BRAND_NAME",
+      "Traits": []
+    },
+    {
+      "Id": 29,
+      "BeginOffset": 1247,
+      "EndOffset": 1267,
+      "Score": 0.45809823274612427,
+      "Text": "neuraxial anesthesia",
+      "Category": "TEST_TREATMENT_PROCEDURE",
+      "Type": "PROCEDURE_NAME",
+      "Traits": []
+    },
+    {
+      "Id": 30,
+      "BeginOffset": 1269,
+      "EndOffset": 1295,
+      "Score": 0.6772652864456177,
+      "Text": "spinal/epidural anesthesia",
+      "Category": "TEST_TREATMENT_PROCEDURE",
+      "Type": "PROCEDURE_NAME",
+      "Traits": []
+    },
+    {
+      "Id": 31,
+      "BeginOffset": 1300,
+      "EndOffset": 1324,
+      "Score": 0.5909374952316284,
+      "Text": "spinal/epidural puncture",
+      "Category": "TEST_TREATMENT_PROCEDURE",
+      "Type": "PROCEDURE_NAME",
+      "Traits": []
+    },
+    {
+      "Id": 32,
+      "BeginOffset": 1360,
+      "EndOffset": 1381,
+      "Score": 0.6113700270652771,
+      "Text": "antithrombotic agents",
+      "Category": "TEST_TREATMENT_PROCEDURE",
+      "Type": "TREATMENT_NAME",
+      "Traits": []
+    },
+    {
+      "Id": 24,
+      "BeginOffset": 1400,
+      "EndOffset": 1428,
+      "Score": 0.9682570099830627,
+      "Text": "thromboembolic complications",
+      "Category": "MEDICAL_CONDITION",
+      "Type": "DX_NAME",
+      "Traits": [
+        {
+          "Name": "DIAGNOSIS",
+          "Score": 0.8148701786994934
+        }
+      ]
+    },
+    {
+      "Id": 25,
+      "BeginOffset": 1458,
+      "EndOffset": 1485,
+      "Score": 0.6467520594596863,
+      "Text": "epidural or spinal hematoma",
+      "Category": "MEDICAL_CONDITION",
+      "Type": "DX_NAME",
+      "Traits": [
+        {
+          "Name": "DIAGNOSIS",
+          "Score": 0.8418669104576111
+        }
+      ]
+    },
+    {
+      "Id": 26,
+      "BeginOffset": 1529,
+      "EndOffset": 1538,
+      "Score": 0.8271676301956177,
+      "Text": "paralysis",
+      "Category": "MEDICAL_CONDITION",
+      "Type": "DX_NAME",
+      "Traits": []
+    },
+    {
+      "Id": 39,
+      "BeginOffset": 1695,
+      "EndOffset": 1705,
+      "Score": 0.9344416856765747,
+      "Text": "hemostasis",
+      "Category": "MEDICAL_CONDITION",
+      "Type": "DX_NAME",
+      "Traits": [
+        {
+          "Name": "DIAGNOSIS",
+          "Score": 0.6810221076011658
+        }
+      ]
+    },
+    {
+      "Id": 46,
+      "BeginOffset": 1730,
+      "EndOffset": 1751,
+      "Score": 0.31295764446258545,
+      "Text": "intrathecal catheters",
+      "Category": "TEST_TREATMENT_PROCEDURE",
+      "Type": "PROCEDURE_NAME",
+      "Traits": []
+    },
+    {
+      "Id": 36,
+      "BeginOffset": 1829,
+      "EndOffset": 1836,
+      "Score": 0.969413697719574,
+      "Text": "ELIQUIS",
+      "Category": "MEDICATION",
+      "Type": "BRAND_NAME",
+      "Traits": []
+    },
+    {
+      "Id": 37,
+      "BeginOffset": 1855,
+      "EndOffset": 1862,
+      "Score": 0.9690783619880676,
+      "Text": "ELIQUIS",
+      "Category": "MEDICATION",
+      "Type": "BRAND_NAME",
+      "Traits": []
+    },
+    {
+      "Id": 55,
+      "BeginOffset": 1903,
+      "EndOffset": 1910,
+      "Score": 0.8755598664283752,
+      "Text": "5 hours",
+      "Category": "TIME_EXPRESSION",
+      "Type": "TIME_TO_PROCEDURE_NAME",
+      "Traits": [],
+      "Attributes": [
+        {
+          "Type": "PROCEDURE_NAME",
+          "Score": 0.8419457077980042,
+          "RelationshipScore": 0.5861044526100159,
+          "RelationshipType": "OVERLAP",
+          "Id": 47,
+          "BeginOffset": 1921,
+          "EndOffset": 1944,
+          "Text": "removal of the catheter",
+          "Category": "TEST_TREATMENT_PROCEDURE",
+          "Traits": []
+        }
+      ]
+    },
+    {
+      "Id": 47,
+      "BeginOffset": 1921,
+      "EndOffset": 1944,
+      "Score": 0.8419457077980042,
+      "Text": "removal of the catheter",
+      "Category": "TEST_TREATMENT_PROCEDURE",
+      "Type": "PROCEDURE_NAME",
+      "Traits": []
+    },
+    {
+      "Id": 48,
+      "BeginOffset": 2002,
+      "EndOffset": 2029,
+      "Score": 0.4567219316959381,
+      "Text": "epidural or spinal puncture",
+      "Category": "TEST_TREATMENT_PROCEDURE",
+      "Type": "PROCEDURE_NAME",
+      "Traits": []
+    },
+    {
+      "Id": 38,
+      "BeginOffset": 2089,
+      "EndOffset": 2096,
+      "Score": 0.9659901261329651,
+      "Text": "ELIQUIS",
+      "Category": "MEDICATION",
+      "Type": "BRAND_NAME",
+      "Traits": []
+    },
+    {
+      "Id": 40,
+      "BeginOffset": 2165,
+      "EndOffset": 2188,
+      "Score": 0.974215567111969,
+      "Text": "neurological impairment",
+      "Category": "MEDICAL_CONDITION",
+      "Type": "DX_NAME",
+      "Traits": [
+        {
+          "Name": "SYMPTOM",
+          "Score": 0.8340247869491577
+        }
+      ]
+    },
+    {
+      "Id": 41,
+      "BeginOffset": 2196,
+      "EndOffset": 2204,
+      "Score": 0.9932557344436646,
+      "Text": "numbness",
+      "Category": "MEDICAL_CONDITION",
+      "Type": "DX_NAME",
+      "Traits": [
+        {
+          "Name": "SYMPTOM",
+          "Score": 0.9044000506401062
+        }
+      ],
+      "Attributes": [
+        {
+          "Type": "SYSTEM_ORGAN_SITE",
+          "Score": 0.9986795783042908,
+          "RelationshipScore": 0.9464909434318542,
+          "RelationshipType": "SYSTEM_ORGAN_SITE",
+          "Id": 33,
+          "BeginOffset": 2224,
+          "EndOffset": 2228,
+          "Text": "legs",
+          "Category": "ANATOMY",
+          "Traits": []
+        },
+        {
+          "Type": "SYSTEM_ORGAN_SITE",
+          "Score": 0.9923769235610962,
+          "RelationshipScore": 0.5394010543823242,
+          "RelationshipType": "SYSTEM_ORGAN_SITE",
+          "Id": 34,
+          "BeginOffset": 2233,
+          "EndOffset": 2238,
+          "Text": "bowel",
+          "Category": "ANATOMY",
+          "Traits": []
+        }
+      ]
+    },
+    {
+      "Id": 42,
+      "BeginOffset": 2208,
+      "EndOffset": 2216,
+      "Score": 0.9731897711753845,
+      "Text": "weakness",
+      "Category": "MEDICAL_CONDITION",
+      "Type": "DX_NAME",
+      "Traits": [
+        {
+          "Name": "SYMPTOM",
+          "Score": 0.8687700033187866
+        }
+      ],
+      "Attributes": [
+        {
+          "Type": "SYSTEM_ORGAN_SITE",
+          "Score": 0.9986795783042908,
+          "RelationshipScore": 0.9992550015449524,
+          "RelationshipType": "SYSTEM_ORGAN_SITE",
+          "Id": 33,
+          "BeginOffset": 2224,
+          "EndOffset": 2228,
+          "Text": "legs",
+          "Category": "ANATOMY",
+          "Traits": []
+        },
+        {
+          "Type": "SYSTEM_ORGAN_SITE",
+          "Score": 0.9923769235610962,
+          "RelationshipScore": 0.8542928099632263,
+          "RelationshipType": "SYSTEM_ORGAN_SITE",
+          "Id": 34,
+          "BeginOffset": 2233,
+          "EndOffset": 2238,
+          "Text": "bowel",
+          "Category": "ANATOMY",
+          "Traits": []
+        }
+      ]
+    },
+    {
+      "Id": 33,
+      "BeginOffset": 2224,
+      "EndOffset": 2228,
+      "Score": 0.9986795783042908,
+      "Text": "legs",
+      "Category": "ANATOMY",
+      "Type": "SYSTEM_ORGAN_SITE",
+      "Traits": []
+    },
+    {
+      "Id": 34,
+      "BeginOffset": 2233,
+      "EndOffset": 2238,
+      "Score": 0.9923769235610962,
+      "Text": "bowel",
+      "Category": "ANATOMY",
+      "Type": "SYSTEM_ORGAN_SITE",
+      "Traits": []
+    },
+    {
+      "Id": 43,
+      "BeginOffset": 2233,
+      "EndOffset": 2261,
+      "Score": 0.7535070180892944,
+      "Text": "bowel or bladder dysfunction",
+      "Category": "MEDICAL_CONDITION",
+      "Type": "DX_NAME",
+      "Traits": [
+        {
+          "Name": "SYMPTOM",
+          "Score": 0.7951209545135498
+        }
+      ],
+      "Attributes": [
+        {
+          "Type": "SYSTEM_ORGAN_SITE",
+          "Score": 0.9986795783042908,
+          "RelationshipScore": 0.9877023100852966,
+          "RelationshipType": "SYSTEM_ORGAN_SITE",
+          "Id": 33,
+          "BeginOffset": 2224,
+          "EndOffset": 2228,
+          "Text": "legs",
+          "Category": "ANATOMY",
+          "Traits": []
+        }
+      ]
+    },
+    {
+      "Id": 35,
+      "BeginOffset": 2242,
+      "EndOffset": 2249,
+      "Score": 0.9965564012527466,
+      "Text": "bladder",
+      "Category": "ANATOMY",
+      "Type": "SYSTEM_ORGAN_SITE",
+      "Traits": []
+    },
+    {
+      "Id": 44,
+      "BeginOffset": 2267,
+      "EndOffset": 2290,
+      "Score": 0.8725103735923767,
+      "Text": "neurological compromise",
+      "Category": "MEDICAL_CONDITION",
+      "Type": "DX_NAME",
+      "Traits": [
+        {
+          "Name": "SYMPTOM",
+          "Score": 0.6516734957695007
+        }
+      ]
+    },
+    {
+      "Id": 49,
+      "BeginOffset": 2449,
+      "EndOffset": 2463,
+      "Score": 0.6950441002845764,
+      "Text": "anticoagulated",
+      "Category": "TEST_TREATMENT_PROCEDURE",
+      "Type": "TREATMENT_NAME",
+      "Traits": []
+    },
+    {
+      "Id": 50,
+      "BeginOffset": 2494,
+      "EndOffset": 2508,
+      "Score": 0.8465096354484558,
+      "Text": "anticoagulated",
+      "Category": "TEST_TREATMENT_PROCEDURE",
+      "Type": "TREATMENT_NAME",
+      "Traits": []
+    },
+    {
+      "Id": 45,
+      "BeginOffset": 2513,
+      "EndOffset": 2531,
+      "Score": 0.39899659156799316,
+      "Text": "thromboprophylaxis",
+      "Category": "MEDICAL_CONDITION",
+      "Type": "DX_NAME",
+      "Traits": []
+    },
+    {
+      "Id": 51,
+      "BeginOffset": 2513,
+      "EndOffset": 2531,
+      "Score": 0.7219973802566528,
+      "Text": "thromboprophylaxis",
+      "Category": "TEST_TREATMENT_PROCEDURE",
+      "Type": "TREATMENT_NAME",
+      "Traits": []
+    }
+  ],
+  "UnmappedAttributes": [],
+  "ModelVersion": "1.0.0"
+}
