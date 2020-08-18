@@ -12,6 +12,16 @@ const medicalDetectEntities = async ({ text }) => {
   return resp;
 };
 
+const medicalInferICD10CM = async ({ text }) => {
+  const params = {
+    Text: text,
+  };
+
+  const resp = await medical.inferICD10CM(params).promise();
+  return resp;
+};
+
 module.exports = {
   medicalDetectEntities,
+  medicalInferICD10CM,
 };

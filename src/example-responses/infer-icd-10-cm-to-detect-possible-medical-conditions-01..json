@@ -1,0 +1,510 @@
+{
+  "Entities": [
+    {
+      "Id": 0,
+      "Text": "Sleeping trouble",
+      "Category": "MEDICAL_CONDITION",
+      "Type": "DX_NAME",
+      "Score": 0.8271645307540894,
+      "BeginOffset": 44,
+      "EndOffset": 60,
+      "Attributes": [],
+      "Traits": [
+        {
+          "Name": "SYMPTOM",
+          "Score": 0.5823034048080444
+        }
+      ],
+      "ICD10CMConcepts": [
+        {
+          "Description": "Sleep disorder, unspecified",
+          "Code": "G47.9",
+          "Score": 0.5554043650627136
+        },
+        {
+          "Description": "Insomnia, unspecified",
+          "Code": "G47.00",
+          "Score": 0.538840651512146
+        },
+        {
+          "Description": "Obstructive sleep apnea (adult) (pediatric)",
+          "Code": "G47.33",
+          "Score": 0.4924606382846832
+        },
+        {
+          "Description": "Somnolence",
+          "Code": "R40.0",
+          "Score": 0.48956477642059326
+        },
+        {
+          "Description": "Sleep apnea, unspecified",
+          "Code": "G47.30",
+          "Score": 0.43649953603744507
+        }
+      ]
+    },
+    {
+      "Id": 1,
+      "Text": "Rash",
+      "Category": "MEDICAL_CONDITION",
+      "Type": "DX_NAME",
+      "Score": 0.9965221881866455,
+      "BeginOffset": 100,
+      "EndOffset": 104,
+      "Attributes": [
+        {
+          "Type": "SYSTEM_ORGAN_SITE",
+          "Score": 0.9851959943771362,
+          "RelationshipScore": 0.9811109900474548,
+          "Id": 2,
+          "BeginOffset": 109,
+          "EndOffset": 113,
+          "Text": "face",
+          "Traits": []
+        },
+        {
+          "Type": "SYSTEM_ORGAN_SITE",
+          "Score": 0.9941712021827698,
+          "RelationshipScore": 0.9926889538764954,
+          "Id": 3,
+          "BeginOffset": 118,
+          "EndOffset": 121,
+          "Text": "leg",
+          "Traits": []
+        }
+      ],
+      "Traits": [
+        {
+          "Name": "SYMPTOM",
+          "Score": 0.6524375081062317
+        }
+      ],
+      "ICD10CMConcepts": [
+        {
+          "Description": "Rash and other nonspecific skin eruption",
+          "Code": "R21",
+          "Score": 0.6064063906669617
+        },
+        {
+          "Description": "Generalized skin eruption due to drugs and medicaments taken internally",
+          "Code": "L27.0",
+          "Score": 0.29180994629859924
+        },
+        {
+          "Description": "Erythematous condition, unspecified",
+          "Code": "L53.9",
+          "Score": 0.2913065552711487
+        },
+        {
+          "Description": "Pyoderma",
+          "Code": "L08.0",
+          "Score": 0.27979716658592224
+        },
+        {
+          "Description": "Pruritus, unspecified",
+          "Code": "L29.9",
+          "Score": 0.25281885266304016
+        }
+      ]
+    },
+    {
+      "Id": 4,
+      "Text": "itchy",
+      "Category": "MEDICAL_CONDITION",
+      "Type": "DX_NAME",
+      "Score": 0.5751778483390808,
+      "BeginOffset": 132,
+      "EndOffset": 137,
+      "Attributes": [
+        {
+          "Type": "SYSTEM_ORGAN_SITE",
+          "Score": 0.9851959943771362,
+          "RelationshipScore": 0.8954095840454102,
+          "Id": 2,
+          "BeginOffset": 109,
+          "EndOffset": 113,
+          "Text": "face",
+          "Traits": []
+        },
+        {
+          "Type": "SYSTEM_ORGAN_SITE",
+          "Score": 0.9941712021827698,
+          "RelationshipScore": 0.9260532259941101,
+          "Id": 3,
+          "BeginOffset": 118,
+          "EndOffset": 121,
+          "Text": "leg",
+          "Traits": []
+        }
+      ],
+      "Traits": [],
+      "ICD10CMConcepts": [
+        {
+          "Description": "Pruritus, unspecified",
+          "Code": "L29.9",
+          "Score": 0.7781833410263062
+        },
+        {
+          "Description": "Rash and other nonspecific skin eruption",
+          "Code": "R21",
+          "Score": 0.6771011352539062
+        },
+        {
+          "Description": "Other pruritus",
+          "Code": "L29.8",
+          "Score": 0.5839400291442871
+        },
+        {
+          "Description": "Unspecified epiphora, unspecified side",
+          "Code": "H04.209",
+          "Score": 0.5587130188941956
+        },
+        {
+          "Description": "Acute pharyngitis, unspecified",
+          "Code": "J02.9",
+          "Score": 0.5440263152122498
+        }
+      ]
+    },
+    {
+      "Id": 6,
+      "Text": "Boggy inferior turbinates",
+      "Category": "MEDICAL_CONDITION",
+      "Type": "DX_NAME",
+      "Score": 0.788222074508667,
+      "BeginOffset": 249,
+      "EndOffset": 274,
+      "Attributes": [
+        {
+          "Type": "SYSTEM_ORGAN_SITE",
+          "Score": 0.9693120718002319,
+          "RelationshipScore": 0.9835799336433411,
+          "Id": 5,
+          "BeginOffset": 241,
+          "EndOffset": 246,
+          "Text": "HEENT",
+          "Traits": []
+        }
+      ],
+      "Traits": [
+        {
+          "Name": "SIGN",
+          "Score": 0.8751994967460632
+        }
+      ],
+      "ICD10CMConcepts": [
+        {
+          "Description": "Other specified noninflammatory disorders of cervix uteri",
+          "Code": "N88.8",
+          "Score": 0.4897415041923523
+        },
+        {
+          "Description": "Other specified disorders of nose and nasal sinuses",
+          "Code": "J34.89",
+          "Score": 0.48286283016204834
+        },
+        {
+          "Description": "Inferior subluxation of left humerus",
+          "Code": "S43.032",
+          "Score": 0.45919543504714966
+        },
+        {
+          "Description": "ST elevation (STEMI) myocardial infarction involving other coronary artery of inferior wall",
+          "Code": "I21.19",
+          "Score": 0.40642061829566956
+        },
+        {
+          "Description": "Other specified noninflammatory disorders of uterus",
+          "Code": "N85.8",
+          "Score": 0.3744235634803772
+        }
+      ]
+    },
+    {
+      "Id": 9,
+      "Text": "oropharyngeal lesion",
+      "Category": "MEDICAL_CONDITION",
+      "Type": "DX_NAME",
+      "Score": 0.8784019947052002,
+      "BeginOffset": 279,
+      "EndOffset": 299,
+      "Attributes": [
+        {
+          "Type": "SYSTEM_ORGAN_SITE",
+          "Score": 0.9693120718002319,
+          "RelationshipScore": 0.9728882312774658,
+          "Id": 5,
+          "BeginOffset": 241,
+          "EndOffset": 246,
+          "Text": "HEENT",
+          "Traits": []
+        },
+        {
+          "Type": "SYSTEM_ORGAN_SITE",
+          "Score": 0.997588038444519,
+          "RelationshipScore": 0.6657477617263794,
+          "Id": 10,
+          "BeginOffset": 300,
+          "EndOffset": 305,
+          "Text": "Lungs",
+          "Traits": []
+        }
+      ],
+      "Traits": [
+        {
+          "Name": "SIGN",
+          "Score": 0.9401262998580933
+        },
+        {
+          "Name": "NEGATION",
+          "Score": 0.9231956601142883
+        }
+      ],
+      "ICD10CMConcepts": [
+        {
+          "Description": "Other specified disorders of nose and nasal sinuses",
+          "Code": "J34.89",
+          "Score": 0.5621693134307861
+        },
+        {
+          "Description": "Other lesions of oral mucosa",
+          "Code": "K13.79",
+          "Score": 0.4549389183521271
+        },
+        {
+          "Description": "Disorder of pigmentation, unspecified",
+          "Code": "L81.9",
+          "Score": 0.45181962847709656
+        },
+        {
+          "Description": "Disorder of the skin and subcutaneous tissue, unspecified",
+          "Code": "L98.9",
+          "Score": 0.41750529408454895
+        },
+        {
+          "Description": "Atherosclerotic heart disease of native coronary artery without angina pectoris",
+          "Code": "I25.10",
+          "Score": 0.4142610728740692
+        }
+      ]
+    },
+    {
+      "Id": 11,
+      "Text": "clear Heart",
+      "Category": "MEDICAL_CONDITION",
+      "Type": "DX_NAME",
+      "Score": 0.8586195111274719,
+      "BeginOffset": 308,
+      "EndOffset": 319,
+      "Attributes": [
+        {
+          "Type": "SYSTEM_ORGAN_SITE",
+          "Score": 0.9693120718002319,
+          "RelationshipScore": 0.9796122908592224,
+          "Id": 5,
+          "BeginOffset": 241,
+          "EndOffset": 246,
+          "Text": "HEENT",
+          "Traits": []
+        },
+        {
+          "Type": "SYSTEM_ORGAN_SITE",
+          "Score": 0.997588038444519,
+          "RelationshipScore": 0.8231465816497803,
+          "Id": 10,
+          "BeginOffset": 300,
+          "EndOffset": 305,
+          "Text": "Lungs",
+          "Traits": []
+        }
+      ],
+      "Traits": [],
+      "ICD10CMConcepts": [
+        {
+          "Description": "Other cardiac sounds",
+          "Code": "R01.2",
+          "Score": 0.7160177826881409
+        },
+        {
+          "Description": "Cardiac arrhythmia, unspecified",
+          "Code": "I49.9",
+          "Score": 0.6995769739151001
+        },
+        {
+          "Description": "Tachycardia, unspecified",
+          "Code": "R00.0",
+          "Score": 0.6747663617134094
+        },
+        {
+          "Description": "Other abnormalities of heart beat",
+          "Code": "R00.8",
+          "Score": 0.668244481086731
+        },
+        {
+          "Description": "Heart disease, unspecified",
+          "Code": "I51.9",
+          "Score": 0.645897388458252
+        }
+      ]
+    },
+    {
+      "Id": 13,
+      "Text": "Regular rhythm",
+      "Category": "MEDICAL_CONDITION",
+      "Type": "DX_NAME",
+      "Score": 0.9165174961090088,
+      "BeginOffset": 322,
+      "EndOffset": 336,
+      "Attributes": [
+        {
+          "Type": "SYSTEM_ORGAN_SITE",
+          "Score": 0.9693120718002319,
+          "RelationshipScore": 0.9284564852714539,
+          "Id": 5,
+          "BeginOffset": 241,
+          "EndOffset": 246,
+          "Text": "HEENT",
+          "Traits": []
+        },
+        {
+          "Type": "SYSTEM_ORGAN_SITE",
+          "Score": 0.997588038444519,
+          "RelationshipScore": 0.4886173605918884,
+          "Id": 10,
+          "BeginOffset": 300,
+          "EndOffset": 305,
+          "Text": "Lungs",
+          "Traits": []
+        },
+        {
+          "Type": "SYSTEM_ORGAN_SITE",
+          "Score": 0.9961535334587097,
+          "RelationshipScore": 0.5358166098594666,
+          "Id": 12,
+          "BeginOffset": 314,
+          "EndOffset": 319,
+          "Text": "Heart",
+          "Traits": []
+        },
+        {
+          "Type": "SYSTEM_ORGAN_SITE",
+          "Score": 0.9911653399467468,
+          "RelationshipScore": 0.569078266620636,
+          "Id": 14,
+          "BeginOffset": 337,
+          "EndOffset": 341,
+          "Text": "Skin",
+          "Traits": []
+        }
+      ],
+      "Traits": [
+        {
+          "Name": "SIGN",
+          "Score": 0.6410112380981445
+        }
+      ],
+      "ICD10CMConcepts": [
+        {
+          "Description": "Cardiac arrhythmia, unspecified",
+          "Code": "I49.9",
+          "Score": 0.7342827916145325
+        },
+        {
+          "Description": "Excessive and frequent menstruation with regular cycle",
+          "Code": "N92.0",
+          "Score": 0.5551221370697021
+        },
+        {
+          "Description": "Other specified cardiac arrhythmias",
+          "Code": "I49.8",
+          "Score": 0.5125272274017334
+        },
+        {
+          "Description": "Bradycardia, unspecified",
+          "Code": "R00.1",
+          "Score": 0.5020182728767395
+        },
+        {
+          "Description": "Regular astigmatism, bilateral",
+          "Code": "H52.223",
+          "Score": 0.4758561849594116
+        }
+      ]
+    },
+    {
+      "Id": 15,
+      "Text": "erythematous eruption",
+      "Category": "MEDICAL_CONDITION",
+      "Type": "DX_NAME",
+      "Score": 0.776309072971344,
+      "BeginOffset": 350,
+      "EndOffset": 371,
+      "Attributes": [
+        {
+          "Type": "SYSTEM_ORGAN_SITE",
+          "Score": 0.9693120718002319,
+          "RelationshipScore": 0.848395586013794,
+          "Id": 5,
+          "BeginOffset": 241,
+          "EndOffset": 246,
+          "Text": "HEENT",
+          "Traits": []
+        },
+        {
+          "Type": "SYSTEM_ORGAN_SITE",
+          "Score": 0.9911653399467468,
+          "RelationshipScore": 0.5128631591796875,
+          "Id": 14,
+          "BeginOffset": 337,
+          "EndOffset": 341,
+          "Text": "Skin",
+          "Traits": []
+        },
+        {
+          "Type": "SYSTEM_ORGAN_SITE",
+          "Score": 0.5765349268913269,
+          "RelationshipScore": 0.9983617663383484,
+          "Id": 16,
+          "BeginOffset": 375,
+          "EndOffset": 383,
+          "Text": "hairline",
+          "Traits": []
+        }
+      ],
+      "Traits": [
+        {
+          "Name": "SIGN",
+          "Score": 0.7227535247802734
+        }
+      ],
+      "ICD10CMConcepts": [
+        {
+          "Description": "Rash and other nonspecific skin eruption",
+          "Code": "R21",
+          "Score": 0.6439171433448792
+        },
+        {
+          "Description": "Erythematous condition, unspecified",
+          "Code": "L53.9",
+          "Score": 0.636064887046814
+        },
+        {
+          "Description": "Other specified disorders of tympanic membrane, bilateral",
+          "Code": "H73.893",
+          "Score": 0.6159440875053406
+        },
+        {
+          "Description": "Other diseases of pharynx",
+          "Code": "J39.2",
+          "Score": 0.5912252068519592
+        },
+        {
+          "Description": "Pruritus, unspecified",
+          "Code": "L29.9",
+          "Score": 0.4995884597301483
+        }
+      ]
+    }
+  ],
+  "ModelVersion": "0.1.0"
+}

@@ -1,7 +1,10 @@
 const fs = require("fs-extra");
 const path = require("path");
+const { medicalDetectEntities, medicalInferICD10CM } = require("./index");
 
-const { medicalDetectEntities } = require("./index");
+const FIXTURES_BASE_DIR = path.join(__dirname, "fixtures");
+const EXAMPLES_BASE_DIR = path.join(__dirname, "example-responses");
+
 const log = (o) => {
   console.log(JSON.stringify(o, null, 2));
 };
@@ -20,23 +23,33 @@ const writeFileJSON = (filePath, o, opt = { overwrite: true }) => {
   }
 };
 
+const readFixture = (fileName) => {
+  return readFile(path.join(FIXTURES_BASE_DIR, fileName));
+};
+
 const saveResponse = (inputFileName, resp) => {
   writeFileJSON(
-    path.join(
-      __dirname,
-      "example-responses",
-      `${path.basename(inputFileName, "txt")}.json`
-    ),
+    path.join(EXAMPLES_BASE_DIR, `${path.basename(inputFileName, "txt")}.json`),
     resp,
     { overwrite: false }
   );
 };
 
-describe("detect entities", () => {
-  it("should return result", async () => {
+describe("comprehend medical", () => {
+  it("should detect entities", async () => {
     const fileName = "medical-product-information-01.txt";
-    const text = readFile(path.join(__dirname, "fixtures", fileName));
+    const text = readFixture(fileName);
     const resp = await medicalDetectEntities({ text });
+    saveResponse(fileName, resp);
+    expect(resp.Entities).toBeDefined();
+    expect(resp.Entities.length).toBeGreaterThan(0);
+  });
+
+  it("should detects medical conditions as entities listed in a patient record and links those entities to normalized concept identifiers in the ICD-10-CM knowledge", async () => {
+    const fileName =
+      "infer-icd-10-cm-to-detect-possible-medical-conditions-01.txt";
+    const text = readFixture(fileName);
+    const resp = await medicalInferICD10CM({ text });
     saveResponse(fileName, resp);
     expect(resp.Entities).toBeDefined();
     expect(resp.Entities.length).toBeGreaterThan(0);
